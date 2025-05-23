@@ -101,7 +101,7 @@ int main()
         case 1:
             cout << "Enter the value top push: ";
             cin >> value;
-            stack.push(value); // Push the entered value onto the stack
+            stack.push(value); // Push the entered value onto the  stack
             break;
         case 2:
             if (!stack.isEmpty())
