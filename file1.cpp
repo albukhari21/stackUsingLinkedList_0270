@@ -5,4 +5,14 @@
 using namespace std;
 
 // Node class representing a single node in the linked list
-class node
+class Node
+{
+public:
+    int data;
+    Node *next;
+
+    Node()
+    {
+        
+    }
+}
