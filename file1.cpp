@@ -53,4 +53,14 @@ public:
         cout << "Popped value: " << top->data << endl;
         delete temp;
     }
+
+    // Peek/Top operation: Retrive the value of the topmost element without remove
+    void peek()
+    {
+        if (top == NULL)
+        {
+            cout << "List is empty." << endl;
+        }
+        else
+    }
 }
