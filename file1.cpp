@@ -76,6 +76,6 @@ public:
     // isEmpty operation: check id the stack is empty
     bool isEmpty()
     {
-        return top == NULL; // Return true if the top pinter is NULL, indicating
+        return top == NULL; // Return true if the top pinter is NULL,  indicating
     }
 }
