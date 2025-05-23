@@ -48,7 +48,7 @@ public:
             cout << "STack is empty." << endl;
         }
 
-        Node *temp = top; // Create a temporary pointer to the top node
+        Node *temp = top; // Create a temporary pointer to the top  node
         top = top->next;  // Update the top pointer to the next node
         cout << "Popped value: " << top->data << endl;
         delete temp;
