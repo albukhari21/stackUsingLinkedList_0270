@@ -76,7 +76,7 @@ public:
     // isEmpty operation: check id the stack is empty
     bool isEmpty()
     {
-        return top == NULL; // Return true if the top pinter is NULL,  indicating
+        return top == NULL; // Return true if the top pointer is NULL,  indicating
     }
 };
 
@@ -97,5 +97,12 @@ int main()
         cin >> choice;
 
         switch (choice)
+        {
+        case 1:
+            cout << "Enter the value top push: ";
+            cin >> value;
+            stack.push(value); // Push the entered value onto the stack
+            break;
+        }
     }
 }
