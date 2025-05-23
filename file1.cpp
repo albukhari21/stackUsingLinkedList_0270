@@ -116,7 +116,7 @@ int main()
         case 3:
             if (!stack.isEmpty())
             {
-                stack.peek(); // Get the value of the top element
+                stack.peek(); // Get the value of the top  element
             }
             else
             {
@@ -131,4 +131,5 @@ int main()
         }
         cout << endl;
     }
+    return 0;
 }
