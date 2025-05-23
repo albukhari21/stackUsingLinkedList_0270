@@ -13,6 +13,19 @@ public:
 
     Node()
     {
+        next = NULL;
+    }
+};
+
+// Stack class
+class Stack
+{
+private:
+    Node *top; // Pointer to the top node of the stack
+
+public:
+    Stack()
+    {
         
     }
 }
